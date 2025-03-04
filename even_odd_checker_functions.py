@@ -13,7 +13,6 @@ def check_even_odd(number):
     else:
         return f"{number} is an Odd number."
 
-# Main Program Flow
-user_number = get_integer_input()
-print(check_even_odd(user_number))
- 
+if __name__ == "__main__":
+    user_number = get_integer_input()
+    print(check_even_odd(user_number))
